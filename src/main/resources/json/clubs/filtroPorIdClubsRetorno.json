@@ -1,0 +1,1519 @@
+[{
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 8,
+			"clubs": [{
+				"id": "2c7a8fe1-fa8f-481b-a925-8d6c6e6a87d3",
+				"name": "80\u0027s Club ED4 editado",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/446.jpg",
+				"address": "Rua Dep. Lacerda Franco, 342",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 0,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "fdd7597e-ff07-4720-b9c0-cf8c0c7f8d50",
+					"name": "AxÃ©"
+				}]
+			}, {
+				"id": "cd16f094-70ac-4804-8eaa-cda7b12b01ad",
+				"name": "Espaco Desmanche",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/253.jpg",
+				"address": "Rua Augusta, 765",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "4c74e08a-3007-4ead-bd60-5e5ae9081162",
+				"name": "Blitz Haus",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/12.jpg",
+				"address": "Rua Augusta, 657",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "a2bb0f8f-7340-426d-867b-c576e551b553",
+				"name": "Dj Club Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/48.jpg",
+				"address": "Al Franca, 241",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "14a44bbe-c8c3-44e4-9d38-a526dd2a74de",
+				"name": "Clube Outs",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/57.jpg",
+				"address": "Rua Augusta, 486",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "ad265a02-b068-427c-b397-8d969f1be03b",
+				"name": "Via Underground",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/126.jpg",
+				"address": "Rua Ãlvaro de Carvalho, 35",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "3a513fd8-20e3-49d6-9ada-de418c024f9b",
+				"name": "Ursound",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/132.jpg",
+				"address": "Rua JoÃ£o Adolfo, 126",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "b999b45f-836c-4f3c-a755-ed5747d70d8f",
+				"name": "Madame Sata Night Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/29.jpg",
+				"address": "Rua Conselheiro Ramalho, 873",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 1,
+			"clubs": [{
+				"id": "2c7a8fe1-fa8f-481b-a925-8d6c6e6a87d3",
+				"name": "80\u0027s Club ED4 editado",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/446.jpg",
+				"address": "Rua Dep. Lacerda Franco, 342",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 0,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "fdd7597e-ff07-4720-b9c0-cf8c0c7f8d50",
+					"name": "AxÃ©"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 3,
+			"clubs": [{
+				"id": "0c20f993-b50d-43be-87fc-1a1ee008e324",
+				"name": "Eazy",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/70.jpg",
+				"address": "Av MarquÃªs de SÃ£o Vicente, 1767",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "e5874e31-59f1-4ce3-b90d-8ba6967a700d",
+					"name": "Funk"
+				}]
+			}, {
+				"id": "81083b34-8689-45dd-9597-69f424d7cc47",
+				"name": "Carioca Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/56.jpg",
+				"address": "Rua Cardeal Arcoverde, 2899",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "48b54f94-fc7d-47d7-920a-5d350d6e7e6b",
+					"name": "Pagode e MPB"
+				}, {
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "f62e52bc-9f35-4988-8a9f-61761c99eb4c",
+				"name": "Audio Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/72.jpg",
+				"address": "Av Francisco Matarazzo, 694",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 0,
+			"clubs": []
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 3,
+			"totalItems": 58,
+			"clubs": [{
+				"id": "4f56aec9-075d-4be6-96bc-ee990515137f",
+				"name": "Code Club Internacional",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/117.jpg",
+				"address": "Av Prof. Francisco Morato, 3507",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "603109c2-c4a2-4f79-8957-468bb9412376",
+				"name": "The Week",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/8.jpg",
+				"address": "Rua Guaicurus, 324",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "094c8bb0-39a5-4adc-b34c-34220e8fff4c",
+				"name": "Remelexo Brasil",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/32.jpg",
+				"address": "Rua Ferreira de AraÃºjo, 1076",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}]
+			}, {
+				"id": "2a144ee7-8b94-42b2-9b3f-d816ed1f555b",
+				"name": "Canto da Ema",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/11.jpg",
+				"address": "Av Brigadeiro Faria Lima, 364",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}]
+			}, {
+				"id": "0c20f993-b50d-43be-87fc-1a1ee008e324",
+				"name": "Eazy",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/70.jpg",
+				"address": "Av MarquÃªs de SÃ£o Vicente, 1767",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "e5874e31-59f1-4ce3-b90d-8ba6967a700d",
+					"name": "Funk"
+				}]
+			}, {
+				"id": "2c7a8fe1-fa8f-481b-a925-8d6c6e6a87d3",
+				"name": "80\u0027s Club ED4 editado",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/446.jpg",
+				"address": "Rua Dep. Lacerda Franco, 342",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 0,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "fdd7597e-ff07-4720-b9c0-cf8c0c7f8d50",
+					"name": "AxÃ©"
+				}]
+			}, {
+				"id": "81083b34-8689-45dd-9597-69f424d7cc47",
+				"name": "Carioca Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/56.jpg",
+				"address": "Rua Cardeal Arcoverde, 2899",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "48b54f94-fc7d-47d7-920a-5d350d6e7e6b",
+					"name": "Pagode e MPB"
+				}, {
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "6cb97e3d-632c-4ce6-a077-06bc48ab8b5e",
+				"name": "Traco de Uniao",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/62.jpg",
+				"address": "Rua ClÃ¡udio Soares, 73",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "39560ecc-c7ae-4f18-9c85-c85fc35372cc",
+					"name": "Samba"
+				}]
+			}, {
+				"id": "71d946a3-0da1-45db-90a0-a156df7765cd",
+				"name": "The L Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/125.jpg",
+				"address": "Rua LuÃ­s Murat, 370",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "9a926112-f677-4f8f-9a48-43d6ae684c5b",
+				"name": "Open Bar Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/525.jpg",
+				"address": "Av. Henrique Schaumann, 794",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 0,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": []
+			}, {
+				"id": "70b6f9fc-7901-4804-bbc1-73d776646697",
+				"name": "Bubu Lounge Disco",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/24.jpg",
+				"address": "Rua dos Pinheiros, 791",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "f62e52bc-9f35-4988-8a9f-61761c99eb4c",
+				"name": "Audio Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/72.jpg",
+				"address": "Av Francisco Matarazzo, 694",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "c416a61a-48ab-462b-8fc6-65511e827ebd",
+				"name": "D-EDGE",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/7.jpg",
+				"address": "Av Auro Soares de Moura Andrade, 141",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "88640029-06ab-4f14-9a27-370b2a1a2d62",
+				"name": "Azucar Club Cubano",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/17.jpg",
+				"address": "Rua Doutor MÃ¡rio Ferraz, 423",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": []
+			}, {
+				"id": "f216c6cb-f2d1-4aa9-9e53-115243f9ab8b",
+				"name": "Blue Space",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/44.jpg",
+				"address": "Rua Brigadeiro galvÃ£o, 723",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "b76ae1ee-ea6d-454c-9bfb-128ecb91f9d9",
+				"name": "Toca do Tatu",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/279.jpg",
+				"address": "Rua Gomes de Carvalho, 1741",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "81f155f4-6048-41b3-960b-790bd462ce18",
+				"name": "Limelight",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/31.jpg",
+				"address": "Av Dr Cardoso de Melo, 1433",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "ecc48836-f3f8-4288-ace6-e49e041cdf72",
+				"name": "Club Jerome",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/271.jpg",
+				"address": "Rua Mato Grosso, 398",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "2f911149-04e9-432f-bb87-6c56a3ff9629",
+				"name": "La Fiesta",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/106.jpg",
+				"address": "Rua Alvorada, 1951",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": []
+			}, {
+				"id": "f3237508-c44b-424a-986c-38a5026a20f6",
+				"name": "The History",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/10.jpg",
+				"address": "Rua Gomes de Carvalho, 820",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 4,
+			"clubs": [{
+				"id": "094c8bb0-39a5-4adc-b34c-34220e8fff4c",
+				"name": "Remelexo Brasil",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/32.jpg",
+				"address": "Rua Ferreira de AraÃºjo, 1076",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}]
+			}, {
+				"id": "2a144ee7-8b94-42b2-9b3f-d816ed1f555b",
+				"name": "Canto da Ema",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/11.jpg",
+				"address": "Av Brigadeiro Faria Lima, 364",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}]
+			}, {
+				"id": "81083b34-8689-45dd-9597-69f424d7cc47",
+				"name": "Carioca Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/56.jpg",
+				"address": "Rua Cardeal Arcoverde, 2899",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "48b54f94-fc7d-47d7-920a-5d350d6e7e6b",
+					"name": "Pagode e MPB"
+				}, {
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "c71fab71-70ff-4342-bb75-710e49a28b53",
+				"name": "Discovery Dance",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/127.jpg",
+				"address": "Rua Laguna, 1116",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 3,
+			"clubs": [{
+				"id": "0c20f993-b50d-43be-87fc-1a1ee008e324",
+				"name": "Eazy",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/70.jpg",
+				"address": "Av MarquÃªs de SÃ£o Vicente, 1767",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "e5874e31-59f1-4ce3-b90d-8ba6967a700d",
+					"name": "Funk"
+				}]
+			}, {
+				"id": "e76a3fa8-e094-4d0f-a9af-9cce2435fe5a",
+				"name": "Nitro Night",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/137.jpg",
+				"address": "Rua Gibraltar, 346",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "e5874e31-59f1-4ce3-b90d-8ba6967a700d",
+					"name": "Funk"
+				}]
+			}, {
+				"id": "7ae12026-9ca1-4420-bbf1-d3f177eac9e7",
+				"name": "Conexao Mix Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/500.jpg",
+				"address": "Rua JoÃ£o Alfredo, 422",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "e5874e31-59f1-4ce3-b90d-8ba6967a700d",
+					"name": "Funk"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 0,
+			"clubs": []
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 11,
+			"clubs": [{
+				"id": "603109c2-c4a2-4f79-8957-468bb9412376",
+				"name": "The Week",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/8.jpg",
+				"address": "Rua Guaicurus, 324",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "71d946a3-0da1-45db-90a0-a156df7765cd",
+				"name": "The L Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/125.jpg",
+				"address": "Rua LuÃ­s Murat, 370",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "70b6f9fc-7901-4804-bbc1-73d776646697",
+				"name": "Bubu Lounge Disco",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/24.jpg",
+				"address": "Rua dos Pinheiros, 791",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "c416a61a-48ab-462b-8fc6-65511e827ebd",
+				"name": "D-EDGE",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/7.jpg",
+				"address": "Av Auro Soares de Moura Andrade, 141",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "f216c6cb-f2d1-4aa9-9e53-115243f9ab8b",
+				"name": "Blue Space",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/44.jpg",
+				"address": "Rua Brigadeiro galvÃ£o, 723",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "a5ed6c30-df03-43de-ad16-b9431a53d5d1",
+				"name": "A Loca",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/58.jpg",
+				"address": "Rua Frei Caneca, 916",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "b4568dd1-a72d-448d-8aa7-aa0fc0034c38",
+				"name": "Cantho",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/89.jpg",
+				"address": "Largo do Arouche, 32",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "afe284f9-c8db-4f1d-b6b0-8f6570393b6b",
+				"name": "Freedom Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/193.jpg",
+				"address": "Largo do Arouche, 06",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "8757bdcd-29fb-4a2c-8dc6-a8c44484b913",
+				"name": "Yacht Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/444.jpg",
+				"address": "R. Treze de Maio, 703",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "c1a176a6-38b3-44ee-b0d3-1e59a6f9d1eb",
+				"name": "Club Yacht",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/51.jpg",
+				"address": "Rua Treze de Maio, 703",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "a9b1b2ed-e39a-4446-8599-13183577141e",
+				"name": "Tunnel",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/80.jpg",
+				"address": "Rua dos Ingleses, 355",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 8,
+			"clubs": [{
+				"id": "81083b34-8689-45dd-9597-69f424d7cc47",
+				"name": "Carioca Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/56.jpg",
+				"address": "Rua Cardeal Arcoverde, 2899",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "48b54f94-fc7d-47d7-920a-5d350d6e7e6b",
+					"name": "Pagode e MPB"
+				}, {
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "81f155f4-6048-41b3-960b-790bd462ce18",
+				"name": "Limelight",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/31.jpg",
+				"address": "Av Dr Cardoso de Melo, 1433",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "f3237508-c44b-424a-986c-38a5026a20f6",
+				"name": "The History",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/10.jpg",
+				"address": "Rua Gomes de Carvalho, 820",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "34b30c08-e385-481e-b600-5ae381a1a9cb",
+				"name": "Le Reve Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/53.jpg",
+				"address": "Rua MarquÃªs de ParanaguÃ¡, 329",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "e4d8fed8-6071-43ab-b45b-81c0a2c7affa",
+				"name": "Trash 80\u0027s",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/426.jpg",
+				"address": "R. Ãlvaro de Carvalho, 40",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "f67423c5-cb97-4349-a450-e8d2bd2200cc",
+				"name": "Clube Caravaggio",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/168.jpg",
+				"address": "Rua Ãlvaro de Carvalho, 40",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "10bef5ea-c708-4ade-8fa3-a1a0a1ddab4f",
+				"name": "Espaco Forasteiros",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/243.jpg",
+				"address": "Rua Valentin Ramos Delano, 52",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "4fb3917e-515c-47a4-a094-2ed0510326cf",
+				"name": "Arena Sertaneja",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/316.jpg",
+				"address": "Av Doutor Assis Ribeiro, 4917",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 1,
+			"clubs": [{
+				"id": "81083b34-8689-45dd-9597-69f424d7cc47",
+				"name": "Carioca Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/56.jpg",
+				"address": "Rua Cardeal Arcoverde, 2899",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "48b54f94-fc7d-47d7-920a-5d350d6e7e6b",
+					"name": "Pagode e MPB"
+				}, {
+					"subcategoryId": "a0b2f443-5d9a-454f-9e01-100f43abeb74",
+					"name": "ForrÃ³"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 1,
+			"clubs": [{
+				"id": "8bb98f94-719c-48ee-a6b7-a19ad2f858c1",
+				"name": "Mary Pop Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/54.jpg",
+				"address": "Rua BarÃ£o de Campinas, 375",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "f5f569d9-d1f2-40c4-9cdf-9aaaa99ab22a",
+					"name": "Pop"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 5,
+			"clubs": [{
+				"id": "c416a61a-48ab-462b-8fc6-65511e827ebd",
+				"name": "D-EDGE",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/7.jpg",
+				"address": "Av Auro Soares de Moura Andrade, 141",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "cd16f094-70ac-4804-8eaa-cda7b12b01ad",
+				"name": "Espaco Desmanche",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/253.jpg",
+				"address": "Rua Augusta, 765",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "ff8d380b-7f68-448c-8355-43b97573b874",
+				"name": "Beco 203",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/334.jpg",
+				"address": "Rua Augusta, 609",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}]
+			}, {
+				"id": "a2bb0f8f-7340-426d-867b-c576e551b553",
+				"name": "Dj Club Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/48.jpg",
+				"address": "Al Franca, 241",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "6297892d-ec2d-4ed3-8337-c32342da08d7",
+				"name": "Fofinho Rock Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/83.jpg",
+				"address": "Av Celso Garcia, 2728",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 0,
+			"clubs": []
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 5,
+			"clubs": [{
+				"id": "c416a61a-48ab-462b-8fc6-65511e827ebd",
+				"name": "D-EDGE",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/7.jpg",
+				"address": "Av Auro Soares de Moura Andrade, 141",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 4,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}, {
+					"subcategoryId": "3a085070-7306-4945-9834-387201054cce",
+					"name": "LGBT"
+				}]
+			}, {
+				"id": "cd16f094-70ac-4804-8eaa-cda7b12b01ad",
+				"name": "Espaco Desmanche",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/253.jpg",
+				"address": "Rua Augusta, 765",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "ff8d380b-7f68-448c-8355-43b97573b874",
+				"name": "Beco 203",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/334.jpg",
+				"address": "Rua Augusta, 609",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}]
+			}, {
+				"id": "a2bb0f8f-7340-426d-867b-c576e551b553",
+				"name": "Dj Club Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/48.jpg",
+				"address": "Al Franca, 241",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}, {
+					"subcategoryId": "ee8d509d-7076-4c64-9dfb-621d089839c8",
+					"name": "Alternativas"
+				}]
+			}, {
+				"id": "6297892d-ec2d-4ed3-8337-c32342da08d7",
+				"name": "Fofinho Rock Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/83.jpg",
+				"address": "Av Celso Garcia, 2728",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae",
+					"name": "Rock"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 2,
+			"clubs": [{
+				"id": "6cb97e3d-632c-4ce6-a077-06bc48ab8b5e",
+				"name": "Traco de Uniao",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/62.jpg",
+				"address": "Rua ClÃ¡udio Soares, 73",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "39560ecc-c7ae-4f18-9c85-c85fc35372cc",
+					"name": "Samba"
+				}]
+			}, {
+				"id": "eba57baf-fbf1-4589-8968-cc42db504eab",
+				"name": "Espaco Refugio",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/170.jpg",
+				"address": "Rua JÃºlio de Castilhos, 412",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "39560ecc-c7ae-4f18-9c85-c85fc35372cc",
+					"name": "Samba"
+				}]
+			}]
+		}
+	}
+}, {
+	"data": {
+		"searchFilter": {
+			"currentPage": 1,
+			"totalPages": 1,
+			"totalItems": 9,
+			"clubs": [{
+				"id": "f62e52bc-9f35-4988-8a9f-61761c99eb4c",
+				"name": "Audio Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/72.jpg",
+				"address": "Av Francisco Matarazzo, 694",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "a62ba550-921b-4e6f-b2d4-d0db0ec42f57",
+					"name": "Black"
+				}, {
+					"subcategoryId": "36a80cb5-b52e-48d1-a66c-16c0bc07f1d2",
+					"name": "EletrÃ´nica"
+				}]
+			}, {
+				"id": "b76ae1ee-ea6d-454c-9bfb-128ecb91f9d9",
+				"name": "Toca do Tatu",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/279.jpg",
+				"address": "Rua Gomes de Carvalho, 1741",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "10bef5ea-c708-4ade-8fa3-a1a0a1ddab4f",
+				"name": "Espaco Forasteiros",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/243.jpg",
+				"address": "Rua Valentin Ramos Delano, 52",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 3,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "9e9c2d65-74c6-4f03-bfd8-3002ec91871d",
+				"name": "Coracao Brasileiro",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/144.jpg",
+				"address": "Av ConceiÃ§Ã£o, 2115",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "d5fff4ad-846c-40fa-8b3d-dde43e0d16fa",
+				"name": "Coracao Sertanejo",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/73.jpg",
+				"address": "Av AtlÃ¢ntica, 4095",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "1a0e17fb-4b19-4ef1-a7b5-f54414e347e0",
+				"name": "Bulls Club",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/145.jpg",
+				"address": "Av Salim Farah Maluf, 1500",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "cb8501d8-5695-48ab-bfde-cb052b6ff67b",
+				"name": "BomBar Music Hall",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/112.jpg",
+				"address": "Av Vereador Abel Ferreira, 317",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}, {
+				"id": "4fb3917e-515c-47a4-a094-2ed0510326cf",
+				"name": "Arena Sertaneja",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/316.jpg",
+				"address": "Av Doutor Assis Ribeiro, 4917",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 1,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}, {
+					"subcategoryId": "52f74c98-7d92-4f5d-84c5-5b8c5ce62286",
+					"name": "Outros"
+				}]
+			}, {
+				"id": "9c35caa5-f738-41f9-83a1-a04053e00d70",
+				"name": "Neres Show Bar",
+				"logoImage": "https://s3.amazonaws.com/goin-public/resources/goin/images/places/160.jpg",
+				"address": "Av SÃ£o Miguel, 5333",
+				"state": "SP",
+				"city": "SÃ£o Paulo",
+				"priceRating": 2,
+				"categoriesInfo": [{
+					"id": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1"
+				}],
+				"subcategoriesInfo": [{
+					"subcategoryId": "bf192ddd-28b8-425c-9aab-6b2915a02527",
+					"name": "Sertanejo"
+				}]
+			}]
+		}
+	}
+}]

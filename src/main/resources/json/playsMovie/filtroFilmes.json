@@ -1,0 +1,12 @@
+[
+{
+	"query": "query getPlaysMovie($subcategoryId: String!, $myLocation: [Float]) { getPlaysMovie(subcategoryId: $subcategoryId, myLocation:$myLocation){        highlighted {\n               id\n               image\n               name\n        }\n        inTheathers {\n               id\n               image\n               name\n        }\n        comingSoon {\n               id\n               image\n               name\n        }\n   }\n}",
+	"variables": {
+		"myLocation": [
+			-23.491655,
+			-46.842117
+		],
+		"subcategoryId": "4813ccdd-facf-4905-814f-404b9c4c5af4"
+	}
+}
+]

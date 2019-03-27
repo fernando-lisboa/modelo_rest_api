@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='UTF-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>Go in - Cucumber Framework</title>
+
+	<style type='text/css'>
+			
+      
+        
+      
+    
+	</style>
+</head>
+
+	<body class='extent standard default hide-overflow bdd-report'>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>Go in - Cucumber Report</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Feb 27, 2019 09:50:32 AM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.2</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m4 l4 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Features</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m4 l4 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Scenarios</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m4 l4 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Features</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Buscar Filmes por filtros</span>
+						<span class='test-time'>Feb 27, 2019 09:50:32 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenariooutline node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 4s+597ms</span>
+	<div class='desc'>
+		<b>ScenarioOutline</b>
+		<span class="desc-text">[SEARCH FILTER] "<Scenario>"-"<DescricaoDoCenario>"</span>
+	</div>
+</div>
+<div class='scenario node' test-id='3' status='pass'>
+	<span class='duration right label'>0h 0m 1s+551ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">[SEARCH FILTER] "CT01.1"-"Filtro de FILMES por localidade ambiente de DEV"</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='4' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given que eu informe o ambiente para teste "dev"</span>
+				<div class='pre'>Ambiente para teste: dev</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='5' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When eu enviar a pesquisa com um arquivo json"filtroFilmes.json"</span>
+				<div class='pre'>eu enviar a pesquisa com um arquivo json: filtroFilmes.json</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='6' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then devo receber no reorno dos filmes</span>
+				<div class='pre'>[{"data":{"getPlaysMovie":{"highlighted":[{"name":"Ballet Bolshoi - La Bayadere","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6589-cartaz.jpg","id":"INGRESSOCOM/6589"},{"name":"Ballet Bolshoi Coppelia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21773-cartaz.jpg","id":"INGRESSOCOM/21773"},{"name":"Halloween: A Noite Do Terror","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22450-cartaz.jpg","id":"INGRESSOCOM/22450"},{"name":"Temporada","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22355-cartaz.jpg","id":"INGRESSOCOM/22355"}],"inTheathers":[{"id":"INGRESSOCOM/21773","name":"Ballet Bolshoi Coppelia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21773-cartaz.jpg"},{"id":"INGRESSOCOM/6589","name":"Ballet Bolshoi - La Bayadere","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6589-cartaz.jpg"},{"id":"INGRESSOCOM/22450","name":"Halloween: A Noite Do Terror","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22450-cartaz.jpg"},{"id":"INGRESSOCOM/14086","name":"Bohemian Rhapsody","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14086-cartaz.jpg"},{"id":"INGRESSOCOM/20524","name":"Nasce Uma Estrela ","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20524-cartaz.jpg"},{"id":"INGRESSOCOM/22391","name":"Vice","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22391-cartaz.jpg"},{"id":"INGRESSOCOM/22406","name":"Cinderela Pop","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22406-cartaz.jpg"},{"id":"INGRESSOCOM/22489","name":"Muleque Te Doido - Mais Doido Ainda!","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/22032","name":"Uma Nova Chance","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22032-cartaz.jpg"},{"id":"INGRESSOCOM/21959","name":"Como Treinar o Seu Dragao 3","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21959-cartaz.jpg"},{"id":"INGRESSOCOM/22425","name":"Todos ja sabem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22425-cartaz.jpg"},{"id":"INGRESSOCOM/19543","name":"Homem livre","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19543-cartaz.jpg"},{"id":"INGRESSOCOM/21304","name":"O Retorno de Mary Poppins","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21304-cartaz.jpg"},{"id":"INGRESSOCOM/21640","name":"Tito e os Passaros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21640-cartaz.jpg"},{"id":"INGRESSOCOM/21741","name":"Made in Italy","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21741-cartaz.jpg"},{"id":"INGRESSOCOM/21981","name":"Escape Room","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21981-cartaz.jpg"},{"id":"INGRESSOCOM/22495","name":"ESTACAO DO DIABO","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22495-cartaz.jpg"},{"id":"INGRESSOCOM/2466","name":"Ballet Bolshoi - A Bela Adormecida","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2466-cartaz.jpg"},{"id":"INGRESSOCOM/22551","name":"Um Lugar Chamado Notting Hill","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22551-cartaz.jpg"},{"id":"INGRESSOCOM/21958","name":"Creed II","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21958-cartaz.jpg"},{"id":"INGRESSOCOM/22355","name":"Temporada","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22355-cartaz.jpg"},{"id":"INGRESSOCOM/2465","name":"Ballet Bolshoi - A Era de Ouro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2465-cartaz.jpg"},{"id":"INGRESSOCOM/21677","name":"Vidro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21677-cartaz.jpg"},{"id":"INGRESSOCOM/21567","name":"Sou carnaval de Sao Salvador","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21567-cartaz.jpg"},{"id":"INGRESSOCOM/22098","name":"No portal da eternidade","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22098-cartaz.jpg"},{"id":"INGRESSOCOM/22074","name":"O menino que queria ser rei","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22074-cartaz.jpg"},{"id":"INGRESSOCOM/22442","name":"Poderia Me Perdoar?","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22442-cartaz.jpg"},{"id":"INGRESSOCOM/22372","name":"Climax","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22372-cartaz.jpg"},{"id":"INGRESSOCOM/22106","name":"Cafarnaum","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22106-cartaz.jpg"},{"id":"INGRESSOCOM/9570","name":"Alien - O Oitavo Passageiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/9570-cartaz.jpg"},{"id":"INGRESSOCOM/22011","name":"Culpa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22011-cartaz.jpg"},{"id":"INGRESSOCOM/21563","name":"Minha Fama De Mau","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21563-cartaz.jpg"},{"id":"INGRESSOCOM/22549","name":"A Casa de Veraneio","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22549-cartaz.jpg"},{"id":"INGRESSOCOM/7117","name":"My Name is Now, Elza Soares","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/20987","name":"WiFi Ralph","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20987-cartaz.jpg"},{"id":"INGRESSOCOM/22314","name":"Minha vida em Marte","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22314-cartaz.jpg"},{"id":"INGRESSOCOM/21676","name":"Alita: Anjo de Combate","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21676-cartaz.jpg"},{"id":"INGRESSOCOM/22306","name":"A esposa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22306-cartaz.jpg"},{"id":"INGRESSOCOM/22508","name":"Guaxuma e Outras Historias","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22508-cartaz.jpg"},{"id":"INGRESSOCOM/19690","name":"Irmao do Jorel","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19690-cartaz.jpg"},{"id":"INGRESSOCOM/20542","name":"Aquaman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20542-cartaz.jpg"},{"id":"INGRESSOCOM/22432","name":"Normandia Nua","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22432-cartaz.jpg"},{"id":"INGRESSOCOM/22075","name":"A favorita","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22075-cartaz.jpg"},{"id":"INGRESSOCOM/22446","name":"A Caminho de Casa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22446-cartaz.jpg"},{"id":"INGRESSOCOM/22036","name":"Sai de Baixo - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22036-cartaz.jpg"},{"id":"INGRESSOCOM/21307","name":"Homem-aranha no Aranhaverso","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21307-cartaz.jpg"},{"id":"INGRESSOCOM/21448","name":"O Primeiro Homem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21448-cartaz.jpg"},{"id":"INGRESSOCOM/22441","name":"Me Lembro Mais dos Corvos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22441-cartaz.jpg"},{"id":"INGRESSOCOM/20169","name":"Fevereiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20169-cartaz.jpg"},{"id":"INGRESSOCOM/22444","name":"Querido Menino","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22444-cartaz.jpg"},{"id":"INGRESSOCOM/20416","name":"Batman - O filme (1989)","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20416-cartaz.jpg"},{"id":"INGRESSOCOM/22389","name":"Eu sou mais eu","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22389-cartaz.jpg"},{"id":"INGRESSOCOM/21774","name":"Ballet Bolshoi Carmem e Petrushka","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21774-cartaz.jpg"},{"id":"INGRESSOCOM/21734","name":"Dogman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21734-cartaz.jpg"},{"id":"INGRESSOCOM/22167","name":"Assunto de familia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22167-cartaz.jpg"},{"id":"INGRESSOCOM/21766","name":"O confeiteiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21766-cartaz.jpg"},{"id":"INGRESSOCOM/4320","name":"Guerra Fria","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/4320-cartaz.jpg"},{"id":"INGRESSOCOM/14623","name":"Os Bons Companheiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14623-cartaz.jpg"},{"id":"INGRESSOCOM/21566","name":"Detetives Do Predio Azul 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21566-cartaz.jpg"},{"id":"INGRESSOCOM/21961","name":"Uma Aventura Lego 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21961-cartaz.jpg"},{"id":"INGRESSOCOM/22428","name":"A Morte Te Da Parabens 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22428-cartaz.jpg"},{"id":"INGRESSOCOM/22143","name":"Se a rua Beale falasse","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22143-cartaz.jpg"},{"id":"INGRESSOCOM/22482","name":"A Pedra da Serpente","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22482-cartaz.jpg"},{"id":"INGRESSOCOM/22414","name":"A Mula","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22414-cartaz.jpg"},{"id":"INGRESSOCOM/22422","name":"Green Book - O Guia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22422-cartaz.jpg"},{"id":"INGRESSOCOM/22483","name":"As Ineses","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22483-cartaz.jpg"},{"id":"INGRESSOCOM/22521","name":"O Medico Indiano","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22521-cartaz.jpg"},{"id":"INGRESSOCOM/21449","name":"Infiltrado na Klan","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21449-cartaz.jpg"},{"id":"INGRESSOCOM/22044","name":"Dragon Ball Super Broly - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22044-cartaz.jpg"},{"id":"INGRESSOCOM/22424","name":"A Sereia - Lago Dos Mortos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22424-cartaz.jpg"}]}}}]</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='7' status='pass'>
+	<span class='duration right label'>0h 0m 3s+30ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">[SEARCH FILTER] "CT01.2"-"Filtro de FILMES por localidade ambiente de HMG"</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='8' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given que eu informe o ambiente para teste "hmg"</span>
+				<div class='pre'>Ambiente para teste: hmg</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='9' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When eu enviar a pesquisa com um arquivo json"filtroFilmes.json"</span>
+				<div class='pre'>eu enviar a pesquisa com um arquivo json: filtroFilmes.json</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='10' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then devo receber no reorno dos filmes</span>
+				<div class='pre'>[{"data":{"getPlaysMovie":{"highlighted":[{"name":"Ballet Bolshoi Coppelia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21773-cartaz.jpg","id":"INGRESSOCOM/21773"},{"name":"Ballet Bolshoi - La Bayadere","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6589-cartaz.jpg","id":"INGRESSOCOM/6589"},{"name":"Uma Aventura Lego 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21961-cartaz.jpg","id":"INGRESSOCOM/21961"},{"name":"Green Book - O Guia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22422-cartaz.jpg","id":"INGRESSOCOM/22422"}],"inTheathers":[{"id":"INGRESSOCOM/21773","name":"Ballet Bolshoi Coppelia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21773-cartaz.jpg"},{"id":"INGRESSOCOM/6589","name":"Ballet Bolshoi - La Bayadere","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/6589-cartaz.jpg"},{"id":"INGRESSOCOM/21961","name":"Uma Aventura Lego 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21961-cartaz.jpg"},{"id":"INGRESSOCOM/22422","name":"Green Book - O Guia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22422-cartaz.jpg"},{"id":"INGRESSOCOM/22355","name":"Temporada","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22355-cartaz.jpg"},{"id":"INGRESSOCOM/14623","name":"Os Bons Companheiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14623-cartaz.jpg"},{"id":"INGRESSOCOM/21448","name":"O Primeiro Homem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21448-cartaz.jpg"},{"id":"INGRESSOCOM/21566","name":"Detetives Do Predio Azul 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21566-cartaz.jpg"},{"id":"INGRESSOCOM/7117","name":"My Name is Now, Elza Soares","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/22389","name":"Eu sou mais eu!","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22389-cartaz.jpg"},{"id":"INGRESSOCOM/21640","name":"Tito e os Passaros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21640-cartaz.jpg"},{"id":"INGRESSOCOM/21958","name":"Creed II","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21958-cartaz.jpg"},{"id":"INGRESSOCOM/21677","name":"Vidro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21677-cartaz.jpg"},{"id":"INGRESSOCOM/2465","name":"Ballet Bolshoi - A Era de Ouro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2465-cartaz.jpg"},{"id":"INGRESSOCOM/14086","name":"Bohemian Rhapsody","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14086-cartaz.jpg"},{"id":"INGRESSOCOM/19690","name":"Sessao Brutal Irmao do Jorel","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19690-cartaz.jpg"},{"id":"INGRESSOCOM/22441","name":"Me Lembro Mais dos Corvos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22441-cartaz.jpg"},{"id":"INGRESSOCOM/4320","name":"Guerra Fria","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/4320-cartaz.jpg"},{"id":"INGRESSOCOM/19543","name":"Homem livre","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19543-cartaz.jpg"},{"id":"INGRESSOCOM/22444","name":"Querido Menino","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22444-cartaz.jpg"},{"id":"INGRESSOCOM/20524","name":"Nasce Uma Estrela ","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20524-cartaz.jpg"},{"id":"INGRESSOCOM/22521","name":"O Medico Indiano","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22521-cartaz.jpg"},{"id":"INGRESSOCOM/21981","name":"Escape Room","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21981-cartaz.jpg"},{"id":"INGRESSOCOM/20542","name":"Aquaman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20542-cartaz.jpg"},{"id":"INGRESSOCOM/21307","name":"Homem-aranha no Aranhaverso","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21307-cartaz.jpg"},{"id":"INGRESSOCOM/22106","name":"Cafarnaum","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22106-cartaz.jpg"},{"id":"INGRESSOCOM/21774","name":"Ballet Bolshoi Carmem e Petrushka","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21774-cartaz.jpg"},{"id":"INGRESSOCOM/22143","name":"Se a rua Beale falasse","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22143-cartaz.jpg"},{"id":"INGRESSOCOM/22098","name":"No portal da eternidade","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22098-cartaz.jpg"},{"id":"INGRESSOCOM/21734","name":"Dogman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21734-cartaz.jpg"},{"id":"INGRESSOCOM/22414","name":"A Mula","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22414-cartaz.jpg"},{"id":"INGRESSOCOM/20987","name":"WiFi Ralph","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20987-cartaz.jpg"},{"id":"INGRESSOCOM/22432","name":"Normandia Nua","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22432-cartaz.jpg"},{"id":"INGRESSOCOM/21959","name":"Como Treinar o Seu Dragao 3","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21959-cartaz.jpg"},{"id":"INGRESSOCOM/22425","name":"Todos ja sabem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22425-cartaz.jpg"},{"id":"INGRESSOCOM/22508","name":"Guaxuma e Outras Historias","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22508-cartaz.jpg"},{"id":"INGRESSOCOM/21563","name":"Minha Fama De Mau","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21563-cartaz.jpg"},{"id":"INGRESSOCOM/22011","name":"Culpa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22011-cartaz.jpg"},{"id":"INGRESSOCOM/21766","name":"O confeiteiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21766-cartaz.jpg"},{"id":"INGRESSOCOM/22495","name":"Estacao do diabo","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22495-cartaz.jpg"},{"id":"INGRESSOCOM/22483","name":"As Ineses","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22483-cartaz.jpg"},{"id":"INGRESSOCOM/20416","name":"Batman - O filme (1989)","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20416-cartaz.jpg"},{"id":"INGRESSOCOM/22372","name":"Climax","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22372-cartaz.jpg"},{"id":"INGRESSOCOM/21304","name":"O Retorno de Mary Poppins","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21304-cartaz.jpg"},{"id":"INGRESSOCOM/20169","name":"Fevereiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20169-cartaz.jpg"},{"id":"INGRESSOCOM/9570","name":"Alien - O Oitavo Passageiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/9570-cartaz.jpg"},{"id":"INGRESSOCOM/2466","name":"Ballet Bolshoi - A Bela Adormecida","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2466-cartaz.jpg"},{"id":"INGRESSOCOM/22044","name":"Dragon Ball Super Broly - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22044-cartaz.jpg"},{"id":"INGRESSOCOM/22442","name":"Poderia Me Perdoar?","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22442-cartaz.jpg"},{"id":"INGRESSOCOM/22482","name":"A Pedra da Serpente","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22482-cartaz.jpg"},{"id":"INGRESSOCOM/21567","name":"Sou carnaval de Sao Salvador","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21567-cartaz.jpg"},{"id":"INGRESSOCOM/21449","name":"Infiltrado na Klan","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21449-cartaz.jpg"},{"id":"INGRESSOCOM/22074","name":"O menino que queria ser rei","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22074-cartaz.jpg"},{"id":"INGRESSOCOM/22424","name":"A Sereia - Lago Dos Mortos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22424-cartaz.jpg"},{"id":"INGRESSOCOM/22167","name":"Assunto de familia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22167-cartaz.jpg"},{"id":"INGRESSOCOM/22032","name":"Uma Nova Chance","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22032-cartaz.jpg"},{"id":"INGRESSOCOM/21741","name":"Made in Italy","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21741-cartaz.jpg"},{"id":"INGRESSOCOM/22551","name":"Um Lugar Chamado Notting Hill","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22551-cartaz.jpg"},{"id":"INGRESSOCOM/22391","name":"Vice","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22391-cartaz.jpg"},{"id":"INGRESSOCOM/22306","name":"A esposa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22306-cartaz.jpg"},{"id":"INGRESSOCOM/22549","name":"A Casa de Veraneio","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22549-cartaz.jpg"},{"id":"INGRESSOCOM/22075","name":"A favorita","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22075-cartaz.jpg"},{"id":"INGRESSOCOM/22406","name":"Cinderela Pop","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22406-cartaz.jpg"},{"id":"INGRESSOCOM/22428","name":"A Morte Te Da Parabens 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22428-cartaz.jpg"},{"id":"INGRESSOCOM/22314","name":"Minha vida em Marte","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22314-cartaz.jpg"},{"id":"INGRESSOCOM/22446","name":"A Caminho de Casa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22446-cartaz.jpg"},{"id":"INGRESSOCOM/22489","name":"Muleque Te Doido - Mais Doido Ainda!","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/21676","name":"Alita: Anjo de Combate","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21676-cartaz.jpg"},{"id":"INGRESSOCOM/22036","name":"Sai de Baixo - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22036-cartaz.jpg"}]}}}]</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='11' status='pass'>
+	<span class='duration right label'>0h 0m 0s+799ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">[SEARCH FILTER] "CT01.3"-"Filtro de FILMES por localidade ambiente de PROD"</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='12' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given que eu informe o ambiente para teste "prod"</span>
+				<div class='pre'>Ambiente para teste: prod</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='13' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When eu enviar a pesquisa com um arquivo json"filtroFilmes.json"</span>
+				<div class='pre'>eu enviar a pesquisa com um arquivo json: filtroFilmes.json</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='14' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then devo receber no reorno dos filmes</span>
+				<div class='pre'>[{"data":{"getPlaysMovie":{"highlighted":[{"name":"L.A. Rebellion: Curtas 1","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22511-cartaz.jpg","id":"INGRESSOCOM/22511"},{"name":"Se a rua Beale falasse","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22143-cartaz.jpg","id":"INGRESSOCOM/22143"},{"name":"Dogman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21734-cartaz.jpg","id":"INGRESSOCOM/21734"},{"name":"Querido Menino","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22444-cartaz.jpg","id":"INGRESSOCOM/22444"}],"inTheathers":[{"id":"INGRESSOCOM/22511","name":"L.A. Rebellion: Curtas 1","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22511-cartaz.jpg"},{"id":"INGRESSOCOM/22143","name":"Se a rua Beale falasse","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22143-cartaz.jpg"},{"id":"INGRESSOCOM/21734","name":"Dogman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21734-cartaz.jpg"},{"id":"INGRESSOCOM/22444","name":"Querido Menino","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22444-cartaz.jpg"},{"id":"INGRESSOCOM/20987","name":"WiFi Ralph","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20987-cartaz.jpg"},{"id":"INGRESSOCOM/14623","name":"Os Bons Companheiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14623-cartaz.jpg"},{"id":"INGRESSOCOM/22442","name":"Poderia Me Perdoar?","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22442-cartaz.jpg"},{"id":"INGRESSOCOM/22074","name":"O menino que queria ser rei","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22074-cartaz.jpg"},{"id":"INGRESSOCOM/21774","name":"Ballet Bolshoi Carmem e Petrushka","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21774-cartaz.jpg"},{"id":"INGRESSOCOM/21566","name":"Detetives Do Predio Azul 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21566-cartaz.jpg"},{"id":"INGRESSOCOM/22098","name":"Van Gogh - No portal da eternidade","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22098-cartaz.jpg"},{"id":"INGRESSOCOM/22306","name":"A esposa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22306-cartaz.jpg"},{"id":"INGRESSOCOM/22389","name":"Eu sou mais eu!","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22389-cartaz.jpg"},{"id":"INGRESSOCOM/21741","name":"Made in Italy","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21741-cartaz.jpg"},{"id":"INGRESSOCOM/22432","name":"Normandia Nua","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22432-cartaz.jpg"},{"id":"INGRESSOCOM/19543","name":"Homem livre","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19543-cartaz.jpg"},{"id":"INGRESSOCOM/21981","name":"Escape Room","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21981-cartaz.jpg"},{"id":"INGRESSOCOM/21307","name":"Homem-aranha no Aranhaverso","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21307-cartaz.jpg"},{"id":"INGRESSOCOM/21640","name":"Tito e os Passaros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21640-cartaz.jpg"},{"id":"INGRESSOCOM/22482","name":"A Pedra da Serpente","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22482-cartaz.jpg"},{"id":"INGRESSOCOM/22011","name":"Culpa","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22011-cartaz.jpg"},{"id":"INGRESSOCOM/20416","name":"Batman - O filme (1989)","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20416-cartaz.jpg"},{"id":"INGRESSOCOM/22355","name":"Temporada","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22355-cartaz.jpg"},{"id":"INGRESSOCOM/21766","name":"O confeiteiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21766-cartaz.jpg"},{"id":"INGRESSOCOM/22391","name":"Vice","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22391-cartaz.jpg"},{"id":"INGRESSOCOM/22106","name":"Cafarnaum","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22106-cartaz.jpg"},{"id":"INGRESSOCOM/21304","name":"O Retorno de Mary Poppins","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21304-cartaz.jpg"},{"id":"INGRESSOCOM/14086","name":"Bohemian Rhapsody","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/14086-cartaz.jpg"},{"id":"INGRESSOCOM/21961","name":"Uma Aventura Lego 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21961-cartaz.jpg"},{"id":"INGRESSOCOM/22441","name":"Lembro mais dos corvos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22441-cartaz.jpg"},{"id":"INGRESSOCOM/21448","name":"O Primeiro Homem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21448-cartaz.jpg"},{"id":"INGRESSOCOM/22372","name":"Climax","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22372-cartaz.jpg"},{"id":"INGRESSOCOM/9570","name":"Alien - O Oitavo Passageiro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/9570-cartaz.jpg"},{"id":"INGRESSOCOM/4320","name":"Guerra Fria","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/4320-cartaz.jpg"},{"id":"INGRESSOCOM/21449","name":"Infiltrado na Klan","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21449-cartaz.jpg"},{"id":"INGRESSOCOM/19690","name":"Irmao do Jorel","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/19690-cartaz.jpg"},{"id":"INGRESSOCOM/22483","name":"As Ineses","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22483-cartaz.jpg"},{"id":"INGRESSOCOM/22075","name":"A favorita","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22075-cartaz.jpg"},{"id":"INGRESSOCOM/22551","name":"Um Lugar Chamado Notting Hill","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22551-cartaz.jpg"},{"id":"INGRESSOCOM/21958","name":"Creed II","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21958-cartaz.jpg"},{"id":"INGRESSOCOM/21677","name":"Vidro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21677-cartaz.jpg"},{"id":"INGRESSOCOM/20542","name":"Aquaman","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20542-cartaz.jpg"},{"id":"INGRESSOCOM/2465","name":"Ballet Bolshoi - A Era de Ouro","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2465-cartaz.jpg"},{"id":"INGRESSOCOM/21676","name":"Alita: Anjo de Combate","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21676-cartaz.jpg"},{"id":"INGRESSOCOM/22489","name":"Muleque Te Doido - Mais Doido Ainda!","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/22036","name":"Sai de Baixo - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22036-cartaz.jpg"},{"id":"INGRESSOCOM/22549","name":"A Casa de Veraneio","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22549-cartaz.jpg"},{"id":"INGRESSOCOM/22422","name":"Green Book - O Guia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22422-cartaz.jpg"},{"id":"INGRESSOCOM/21959","name":"Como Treinar o Seu Dragao 3","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21959-cartaz.jpg"},{"id":"INGRESSOCOM/20524","name":"Nasce Uma Estrela ","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20524-cartaz.jpg"},{"id":"INGRESSOCOM/22406","name":"Cinderela Pop","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22406-cartaz.jpg"},{"id":"INGRESSOCOM/22314","name":"Minha vida em Marte","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22314-cartaz.jpg"},{"id":"INGRESSOCOM/22428","name":"A Morte Te Da Parabens 2","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22428-cartaz.jpg"},{"id":"INGRESSOCOM/7117","name":"My Name is Now, Elza Soares","image":"https://goin-public.s3-accelerate.amazonaws.com/resources/goin/images/placeholders/no-movie.jpg"},{"id":"INGRESSOCOM/22414","name":"A Mula","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22414-cartaz.jpg"},{"id":"INGRESSOCOM/22167","name":"Assunto de familia","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22167-cartaz.jpg"},{"id":"INGRESSOCOM/22508","name":"Guaxuma e Outras Historias","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22508-cartaz.jpg"},{"id":"INGRESSOCOM/2466","name":"Ballet Bolshoi - A Bela Adormecida","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/2466-cartaz.jpg"},{"id":"INGRESSOCOM/22032","name":"Uma Nova Chance","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22032-cartaz.jpg"},{"id":"INGRESSOCOM/22495","name":"Estacao do diabo","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22495-cartaz.jpg"},{"id":"INGRESSOCOM/22425","name":"Todos ja sabem","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22425-cartaz.jpg"},{"id":"INGRESSOCOM/22521","name":"O Medico Indiano","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22521-cartaz.jpg"},{"id":"INGRESSOCOM/22424","name":"A Sereia - Lago Dos Mortos","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22424-cartaz.jpg"},{"id":"INGRESSOCOM/20169","name":"Fevereiros","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/20169-cartaz.jpg"},{"id":"INGRESSOCOM/21563","name":"Minha Fama De Mau","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/21563-cartaz.jpg"},{"id":"INGRESSOCOM/22044","name":"Dragon Ball Super Broly - O Filme","image":"https://ingresso-a.akamaihd.net/img/cinema/cartaz/22044-cartaz.jpg"}]}}}]</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+</div>
+<!-- test view -->
+<!-- category view -->
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Features
+					<div class='panel-lead'>1</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Scenarios
+					<div class='panel-lead'>3</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>9</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Feb 27, 2019 09:50:32 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Feb 27, 2019 09:50:37 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>5,512ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 1,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				
+				passChild: 3,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				exceptionsChild: 0,
+				
+				passGrandChild: 9,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+ 			
+      
+        $(document).ready(function() {
+        
+        });
+      
+    
+ 		</script>
+	</body>
+	
+</html>

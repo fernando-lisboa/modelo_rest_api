@@ -1,0 +1,10 @@
+[
+{
+	"query": "query getPlaysTheater($subcategoryId: String!, $myLocation: [Float]) { getPlaysTheater(subcategoryId: $subcategoryId, myLocation:$myLocation){        highlighted {\n               id\n               image\n               name\n               city\n        }\n        inTheathers {\n               id\n               image\n               name\n               city\n        }\n        comingSoon {\n               id\n               image\n               name\n               city\n        }\n   }\n}",
+	"variables": {
+		"myLocation": [-23.4988225,
+		-46.8450396],
+		"subcategoryId": "163c71f7-686c-41b7-aa8a-07227470f556"
+	}
+}
+]

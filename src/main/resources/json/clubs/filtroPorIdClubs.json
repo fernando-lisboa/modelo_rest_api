@@ -1,0 +1,292 @@
+[
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"ee8d509d-7076-4c64-9dfb-621d089839c8"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"fdd7597e-ff07-4720-b9c0-cf8c0c7f8d50"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"a62ba550-921b-4e6f-b2d4-d0db0ec42f57"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"ca943421-4d64-49c6-8409-16365903eb7b"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"6a80cb5-b52e-48d1-a66c-16c0bc07f1d2"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"a0b2f443-5d9a-454f-9e01-100f43abeb74"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"e5874e31-59f1-4ce3-b90d-8ba6967a700d"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId  name }\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"7cc7ebca-bdfe-4df7-b3be-daeedb177d68"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"3a085070-7306-4945-9834-387201054cce"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"52f74c98-7d92-4f5d-84c5-5b8c5ce62286"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"48b54f94-fc7d-47d7-920a-5d350d6e7e6b"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"f5f569d9-d1f2-40c4-9cdf-9aaaa99ab22a"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"83a896a0-fe43-4f39-a721-6c174eb6008b"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"42bdb4fe-7ff2-48c7-9ee6-a9d6e5bdb0ae"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"39560ecc-c7ae-4f18-9c85-c85fc35372cc"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	},
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n           state\n           startDate\n       }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n     categoriesInfo {id} \n subcategoriesInfo { subcategoryId   name}\n      }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "4ad3387e-99d8-48e0-8b3d-fb5e251ceaa1",
+				"subCategoriesId": [
+					"bf192ddd-28b8-425c-9aab-6b2915a02527"
+				],
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	}
+	
+]

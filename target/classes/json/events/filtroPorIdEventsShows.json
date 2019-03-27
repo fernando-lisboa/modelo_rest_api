@@ -1,0 +1,16 @@
+[
+	{
+		"query": "query searchFilter($input: SearchFilterInput!, $paginate: Int!, $limit: Int!) {\n   searchFilter(input: $input, paginate: $paginate, limit: $limit) {\n       currentPage\n       totalPages\n       totalItems\n       events {\n           id\n           categoryType\n           name\n           subcategories\n           image\n           city\n           placeAddress\n           latitude\n           longitude\n           lowestPrice\n           rating\n  startDate\n   endDate\n            state\n   description\n  clubId\n  }\n       clubs {\n           id\n           name\n           city\n           address\n           latitude\n           longitude\n           logoImage\n           rating\n           priceRating\n           state\n       }\n      }\n   }",
+		"variables": {
+			"input": {
+				"categoryId": "6a4f725a-8a04-49fa-85b3-e080d6d596ce",
+				"myLocation": [
+					-23.4916561,
+					-46.8421187
+				]
+			},
+			"limit": 20,
+			"paginate": 1
+		}
+	}
+]
